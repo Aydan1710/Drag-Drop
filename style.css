@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f7fb ;
+}
+
+.container .bar{
+    display: flex;
+    width: 302px;
+    height: 300px;
+  justify-content: center;
+  align-items: center;
+    border: 2px solid green;
+    border-style: dashed;
+    color: gray;
+   
+   
+ 
+ 
+            
+}
+
+
+.moon{
+    height: 250px;
+    width:300px;
+    user-select: auto;
+}
+
+.moon :active{
+    background-color: gray;
+}
